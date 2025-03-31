@@ -1,0 +1,42 @@
+/* Apply grid layout to the navbar */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    display: grid;
+    justify-content: center;
+}
+
+/* Apply grid to the list */
+.nav-list {
+    display: flex;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Style list items */
+.nav-list li {
+    background-color: #444;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+/* Style links */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Dropdown styling (optional) */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-list li:hover .dropdown {
+    display: block;
+}
