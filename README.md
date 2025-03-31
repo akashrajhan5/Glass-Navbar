@@ -6,11 +6,11 @@ A sleek and modern **Glassmorphic Navigation Bar** designed with pure **HTML & C
 
 - **Glassmorphism Effect** (Blurred, semi-transparent background)
 - **Fixed Position** (Always stays at the top while scrolling)
-- **Responsive Design** (Works on mobile and desktop)
-- **Smooth Hover Effects** (Underline animation)
-- **Dropdown Menu** (For multi-level navigation)
-- **Search Bar** (For quick access)
-- **Hamburger Menu** (For mobile navigation)
+- **Responsive Design** (Works on mobile and desktop) - Currently Working On
+- **Smooth Hover Effects** (Underline animation) - Adding More
+- **Dropdown Menu** (For multi-level navigation) - Currently Working On
+- **Search Bar** (For quick access) - Making It More Awesome
+- **Hamburger Menu** (For mobile navigation) - Currently Working On
 
 ---
 
@@ -19,9 +19,8 @@ A sleek and modern **Glassmorphic Navigation Bar** designed with pure **HTML & C
 ```
 📂 glass-navbar
  ├── 📄 index.html  # Main HTML file
- ├── 🎨 style.css  # Styling file
+ ├── 🎨 style.css   # Styling file
  ├── 📄 README.md   # Documentation (this file)
- ├── 📂 assets      # Folder for images/icons (optional)
 ```
 
 ---
@@ -31,7 +30,7 @@ A sleek and modern **Glassmorphic Navigation Bar** designed with pure **HTML & C
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/glass-navbar.git
+git clone https://github.com/akashrajhan5/glass-navbar.git
 ```
 
 ### 2️⃣ Open the `index.html` file in a browser
@@ -63,18 +62,6 @@ Modify the `::after` effect in **style.css**:
 }
 ```
 
-### 🔹 Adjust Mobile Responsiveness
-
-Modify the `@media` queries in **style.css**:
-
-```css
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-    }
-}
-```
-
 ---
 
 ## 📸 Preview
@@ -97,5 +84,5 @@ Feel free to fork this project, make improvements, and submit a **pull request**
 
 ## 📞 Contact
 
-For any questions, reach out at [**your-email@example.com**](mailto\:your-email@example.com) or connect on [GitHub](https://github.com/yourusername).
+For any questions, connect on [GitHub](https://github.com/akashrajhan5).
 
